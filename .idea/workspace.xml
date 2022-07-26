@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ad858ec7-e496-4139-8f82-660b8c3f4466" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy-datasource.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.jpb/persistence-units.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/paulocalderan/VendasApplicantion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/paulocalderan/domain/entity/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/paulocalderan/domain/entity/ItemPedido.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/paulocalderan/domain/entity/Pedido.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/paulocalderan/domain/entity/Produto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/paulocalderan/domain/enums/StatusPedido.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/paulocalderan/domain/repository/ClienteRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/paulocalderan/domain/repository/ItemPedidoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/paulocalderan/domain/repository/PedidoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/paulocalderan/domain/repository/ProdutoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/paulocalderan/exception/PedidoNaoEncontradoException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/paulocalderan/exception/RegraNegocioException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/paulocalderan/rest/ApiErrors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/paulocalderan/rest/controller/ApplicationControllerAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/paulocalderan/rest/controller/ClienteController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/paulocalderan/rest/controller/PedidoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/paulocalderan/rest/controller/ProdutoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/paulocalderan/rest/dto/AtualizacaoStatusPedidoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/paulocalderan/rest/dto/InformacaoItemPedidoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/paulocalderan/rest/dto/InformacoesPedidoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/paulocalderan/rest/dto/ItemPedidoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/paulocalderan/rest/dto/PedidoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/paulocalderan/service/PedidoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/paulocalderan/service/impl/PedidoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/meu_schema.sql" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Bwcok6BeVu1xgNbosvROWMySzE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/paulo/OneDrive/Área de Trabalho/Projetos/vendas/src/main/resources",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spring.configuration.checksum": "ff4983e12b10e8a56d72adda44db1bf2"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="br.paulocalderan.exception" />
+      <recent name="br.paulocalderan.domain.enums" />
+      <recent name="br.paulocalderan.rest.dto" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\paulo\OneDrive\Área de Trabalho\Projetos\vendas\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.paulocalderan" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.VendasApplicantion">
+    <configuration name="br.paulocalderan.VendasApplicantion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.paulocalderan.VendasApplicantion" />
+      <module name="vendas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.paulocalderan.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VendasApplicantion" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="vendas" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="br.paulocalderan.VendasApplicantion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.paulocalderan.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.VendasApplicantion" />
+        <item itemvalue="Application.br.paulocalderan.VendasApplicantion" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ad858ec7-e496-4139-8f82-660b8c3f4466" name="Changes" comment="" />
+      <created>1657820766678</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1657820766678</updated>
+      <workItem from="1657820768661" duration="5325000" />
+      <workItem from="1657889231480" duration="4892000" />
+      <workItem from="1657906184959" duration="3972000" />
+      <workItem from="1657912814765" duration="3000" />
+      <workItem from="1657916601168" duration="776000" />
+      <workItem from="1658063933406" duration="15000" />
+      <workItem from="1658150467134" duration="4183000" />
+      <workItem from="1658333484027" duration="5000" />
+      <workItem from="1658406998126" duration="3150000" />
+      <workItem from="1658420219388" duration="9442000" />
+      <workItem from="1658500541559" duration="19000" />
+      <workItem from="1658500667314" duration="1976000" />
+      <workItem from="1658580038887" duration="3585000" />
+      <workItem from="1658589818149" duration="1885000" />
+      <workItem from="1658608547728" duration="189000" />
+      <workItem from="1658683522140" duration="2681000" />
+      <workItem from="1658688915428" duration="1501000" />
+      <workItem from="1658789815906" duration="10500000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
