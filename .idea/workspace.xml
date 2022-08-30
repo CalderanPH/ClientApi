@@ -4,23 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad858ec7-e496-4139-8f82-660b8c3f4466" name="Changes" comment="Implementação do Rest">
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/paulocalderan/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/paulocalderan/domain/entity/Usuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/paulocalderan/domain/repository/UsuarioRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/paulocalderan/exception/SenhaInvalidaException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/paulocalderan/rest/controller/UsuarioController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/paulocalderan/rest/dto/CredenciaisDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/paulocalderan/rest/dto/TokenDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/paulocalderan/security/jwt/JwtAuthFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/paulocalderan/security/jwt/JwtService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/paulocalderan/service/impl/UsuarioServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="ad858ec7-e496-4139-8f82-660b8c3f4466" name="Changes" comment="Implementação do Spring Security com JWT">
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/paulocalderan/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/migration.db/V01_implementacao.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/paulocalderan/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/paulocalderan/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/V01_implementacao.sql" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/meu_schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/V01_implementacao.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,6 +89,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\paulo\OneDrive\Área de Trabalho\Projetos\vendas\src\main\resources" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Documentos Backup\Dev Software\Projeto\ClienteApi\src\main\resources\migration.db" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="br.paulocalderan" />
     </key>
@@ -146,7 +140,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.VendasApplicantion" />
-        <item itemvalue="Application.br.paulocalderan.VendasApplicantion" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +192,8 @@
       <workItem from="1661606328960" duration="624000" />
       <workItem from="1661702623419" duration="18000" />
       <workItem from="1661778338594" duration="1731000" />
-      <workItem from="1661814177196" duration="5787000" />
+      <workItem from="1661814177196" duration="5908000" />
+      <workItem from="1661884329622" duration="7206000" />
     </task>
     <task id="LOCAL-00001" summary="Aplicação Restful">
       <created>1658803956379</created>
@@ -215,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658866011821</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Implementação do Spring Security com JWT">
+      <created>1661820080109</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1661820080109</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,6 +237,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Aplicação Restful" />
     <MESSAGE value="Implementação do Rest" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementação do Rest" />
+    <MESSAGE value="Implementação do Spring Security com JWT" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementação do Spring Security com JWT" />
   </component>
 </project>
