@@ -4,12 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad858ec7-e496-4139-8f82-660b8c3f4466" name="Changes" comment="Aplicação Restful">
+    <list default="true" id="ad858ec7-e496-4139-8f82-660b8c3f4466" name="Changes" comment="Implementação do Rest">
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/paulocalderan/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/paulocalderan/domain/entity/Usuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/paulocalderan/domain/repository/UsuarioRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/paulocalderan/exception/SenhaInvalidaException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/paulocalderan/rest/controller/UsuarioController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/paulocalderan/rest/dto/CredenciaisDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/paulocalderan/rest/dto/TokenDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/paulocalderan/security/jwt/JwtAuthFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/paulocalderan/security/jwt/JwtService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/paulocalderan/service/impl/UsuarioServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/paulocalderan/VendasApplicantion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/paulocalderan/VendasApplicantion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/paulocalderan/domain/entity/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/paulocalderan/domain/entity/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/paulocalderan/rest/controller/ClienteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/paulocalderan/rest/controller/ClienteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/meu_schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/V01_implementacao.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,16 +31,16 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="AnnotationType" />
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="MIXED" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
@@ -69,10 +80,11 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/paulo/OneDrive/Área de Trabalho/Projetos/ClienteApi&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Documentos Backup/Dev Software/Projeto/FullStackApi&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;01f11f661acd147f21475c21ca32cef8&quot;
   }
@@ -98,12 +110,12 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.VendasApplicantion (1)">
-    <configuration name="br.paulocalderan.VendasApplicantion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="VendasApplicantion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.paulocalderan.VendasApplicantion" />
       <module name="vendas" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.paulocalderan.*" />
+          <option name="PATTERN" value="br.paulocalderan.security.jwt.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,6 +183,23 @@
       <workItem from="1658853187402" duration="48000" />
       <workItem from="1658853412719" duration="38000" />
       <workItem from="1658853465276" duration="154000" />
+      <workItem from="1658865954344" duration="526000" />
+      <workItem from="1658879392095" duration="16000" />
+      <workItem from="1658879418780" duration="3000" />
+      <workItem from="1658923200816" duration="31000" />
+      <workItem from="1658945896071" duration="13000" />
+      <workItem from="1659377009129" duration="58000" />
+      <workItem from="1659377105784" duration="27000" />
+      <workItem from="1660657406841" duration="112000" />
+      <workItem from="1660775983214" duration="3000" />
+      <workItem from="1661276047686" duration="5971000" />
+      <workItem from="1661381985224" duration="4441000" />
+      <workItem from="1661430169932" duration="44000" />
+      <workItem from="1661459432545" duration="742000" />
+      <workItem from="1661606328960" duration="624000" />
+      <workItem from="1661702623419" duration="18000" />
+      <workItem from="1661778338594" duration="1731000" />
+      <workItem from="1661814177196" duration="5787000" />
     </task>
     <task id="LOCAL-00001" summary="Aplicação Restful">
       <created>1658803956379</created>
@@ -179,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658803956379</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Implementação do Rest">
+      <created>1658866011821</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1658866011821</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,6 +235,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Aplicação Restful" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aplicação Restful" />
+    <MESSAGE value="Implementação do Rest" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementação do Rest" />
   </component>
 </project>

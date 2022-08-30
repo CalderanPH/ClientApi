@@ -1,0 +1,16 @@
+version: '3'
+services:
+  full:
+    image: "postgres:12"
+    volumes:
+      - ./db_data:/var/lib/postgresql/data_vendas
+    ports:
+      - "5435:5432"
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 1234
+      POSTGRES_DB: vendas
+
+volumes:
+  db_data:
+
