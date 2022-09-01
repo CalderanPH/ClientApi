@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad858ec7-e496-4139-8f82-660b8c3f4466" name="Changes" comment="Implementação do Spring Security com JWT">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/paulocalderan/config/SwaggerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/migration.db/V01_implementacao.sql" afterDir="false" />
+    <list default="true" id="ad858ec7-e496-4139-8f82-660b8c3f4466" name="Changes" comment="Implementação do Swagger">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/paulocalderan/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/paulocalderan/config/SecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/V01_implementacao.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/migration.db/V01_implementacao.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db.migration/V01_implementacao.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,7 +189,11 @@
       <workItem from="1661702623419" duration="18000" />
       <workItem from="1661778338594" duration="1731000" />
       <workItem from="1661814177196" duration="5908000" />
-      <workItem from="1661884329622" duration="7206000" />
+      <workItem from="1661884329622" duration="8266000" />
+      <workItem from="1661976395246" duration="1207000" />
+      <workItem from="1661986519791" duration="1063000" />
+      <workItem from="1662041416751" duration="296000" />
+      <workItem from="1662043203168" duration="751000" />
     </task>
     <task id="LOCAL-00001" summary="Aplicação Restful">
       <created>1658803956379</created>
@@ -216,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661820080109</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Implementação do Swagger">
+      <created>1661892423840</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1661892423840</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,7 +234,24 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="COLUMN_ID_WIDTH">
+                <map>
+                  <entry key="Table.Default.Author.ColumnIdWidth" value="170" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -238,6 +262,7 @@
     <MESSAGE value="Aplicação Restful" />
     <MESSAGE value="Implementação do Rest" />
     <MESSAGE value="Implementação do Spring Security com JWT" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementação do Spring Security com JWT" />
+    <MESSAGE value="Implementação do Swagger" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementação do Swagger" />
   </component>
 </project>
