@@ -1,6 +1,5 @@
 package br.paulocalderan.domain.entity;
 
-
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -37,4 +36,5 @@ public class Cliente {
         this.id = id;
         this.nome = nome;
     }
+
 }

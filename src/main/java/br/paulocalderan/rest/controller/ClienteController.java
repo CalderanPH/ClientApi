@@ -15,7 +15,7 @@ import java.util.List;
 @RequestMapping("/api/clientes")
 public class ClienteController {
 
-    private ClienteRepository clienteRepository;
+    private final ClienteRepository clienteRepository;
 
     public ClienteController(ClienteRepository clienteRepository) {
         this.clienteRepository = clienteRepository;

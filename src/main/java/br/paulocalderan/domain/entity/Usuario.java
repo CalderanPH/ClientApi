@@ -22,8 +22,10 @@ public class Usuario {
 
     @NotEmpty(message = "Campo Login obrigatorio")
     private String login;
+
     @NotEmpty(message = "Campo senha obrigatorio")
     private String senha;
+
     private boolean admin;
 
 }

@@ -1,6 +1,5 @@
 package br.paulocalderan.rest.controller;
 
-
 import br.paulocalderan.domain.entity.ItemPedido;
 import br.paulocalderan.domain.entity.Pedido;
 import br.paulocalderan.domain.enums.StatusPedido;
@@ -22,7 +21,8 @@ import java.util.stream.Collectors;
 @RestController
 @RequestMapping("/api/pedidos")
 public class PedidoController {
-    private PedidoService service;
+
+    private final PedidoService service;
 
     public PedidoController(PedidoService service) {
         this.service = service;

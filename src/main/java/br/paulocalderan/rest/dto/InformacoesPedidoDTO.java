@@ -13,6 +13,7 @@ import java.util.List;
 @NoArgsConstructor
 @Builder
 public class InformacoesPedidoDTO {
+
     private Integer codigo;
     private String cpf;
     private String nomeCliente;
@@ -20,4 +21,5 @@ public class InformacoesPedidoDTO {
     private List<InformacaoItemPedidoDTO> itens;
     private String dataPedido;
     private String status;
+
 }

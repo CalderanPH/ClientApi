@@ -42,5 +42,3 @@ CREATE TABLE usuario
     admin BOOLEAN,
     CONSTRAINT pk_cliente PRIMARY KEY (ID)
 );
-
-

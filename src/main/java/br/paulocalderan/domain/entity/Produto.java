@@ -7,7 +7,6 @@ import lombok.NoArgsConstructor;
 import javax.persistence.*;
 import java.math.BigDecimal;
 
-
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
@@ -25,6 +24,5 @@ public class Produto {
 
     @Column
     private BigDecimal preco;
-
 
 }

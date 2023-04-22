@@ -4,4 +4,5 @@ public enum StatusPedido {
 
     REALIZADO,
     CANCELADO;
+
 }

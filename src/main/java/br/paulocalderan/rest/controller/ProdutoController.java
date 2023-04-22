@@ -1,6 +1,5 @@
 package br.paulocalderan.rest.controller;
 
-
 import br.paulocalderan.domain.entity.Produto;
 import br.paulocalderan.domain.repository.ProdutoRepository;
 import org.springframework.data.domain.Example;
@@ -14,7 +13,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/produtos")
 public class ProdutoController {
-    private ProdutoRepository produtoRepository;
+    private final ProdutoRepository produtoRepository;
 
     public ProdutoController(ProdutoRepository produtoRepository) {
         this.produtoRepository = produtoRepository;
@@ -73,6 +72,5 @@ public class ProdutoController {
         return produtoRepository.findAll(example);
 
     }
-
 
 }

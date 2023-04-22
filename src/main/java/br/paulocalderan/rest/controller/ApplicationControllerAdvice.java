@@ -16,7 +16,6 @@ public class ApplicationControllerAdvice {
     public ApiErrors handleRegraNegocioException(RegraNegocioException ex) {
         String message = ex.getMessage();
         return new ApiErrors(message);
-
     }
 
     @ExceptionHandler(PedidoNaoEncontradoException.class)

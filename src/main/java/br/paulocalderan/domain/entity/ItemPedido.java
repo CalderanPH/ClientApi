@@ -1,6 +1,5 @@
 package br.paulocalderan.domain.entity;
 
-
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -13,6 +12,7 @@ import javax.persistence.*;
 @Entity
 @Table(name = "ItemPedido")
 public class ItemPedido {
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "id")
@@ -28,6 +28,5 @@ public class ItemPedido {
 
     @Column
     private Integer quantidade;
-
 
 }
